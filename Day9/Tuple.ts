@@ -28,8 +28,8 @@ for (let i in user) {
 }
 
 // Example 5: Iterating using a 'for...of' loop (value-based iteration)
-for (let element of user) {
-    console.log(element); // 'element' represents the actual value
+for (let value of user) {
+    console.log(value); // 'element' represents the actual value
 }
 
 // Example 6: Tuple Array (Array of Tuples)
@@ -42,3 +42,7 @@ let students: [number, string][] = [
 console.log(students[0]); // Output: [101, "Smith"]
 console.log(students[1]); // Output: [102, "Scott"]
 console.log(students[2]); // Output: [103, "Mary"]
+
+let tp = students[0];
+console.log(tp[0]);
+console.log(tp[1]);
