@@ -1,0 +1,15 @@
+{
+  "name": "playwright-typescript-examples",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "run": "npx ts-node",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "ts-node": "^10.9.1"
+  }
+}
